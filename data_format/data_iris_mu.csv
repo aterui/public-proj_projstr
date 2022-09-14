@@ -1,0 +1,7 @@
+species,metric,value
+setosa,mean_sl,5.006
+setosa,mean_pl,1.462
+versicolor,mean_sl,5.936
+versicolor,mean_pl,4.26
+virginica,mean_sl,6.588
+virginica,mean_pl,5.552
