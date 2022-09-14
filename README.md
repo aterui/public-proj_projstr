@@ -1,7 +1,7 @@
 README
 ================
 
-## About
+## Structure
 
 This repository provides a sample `R Project` structure. A recommended
 structure is the following:
@@ -14,3 +14,22 @@ structure is the following:
 | `/data_format` | Sub-directory for formatted data (`.csv`, `.rds`, or other formats).                                                                                                          |
 | `/output`      | Sub-directory for result outputs (`.csv`, `.rds`, or other formats). This may include statistical estimates from linear regression models etc.                                |
 | `/rmd`         | (Optional) Sub-directory for Rmarkdown files (`.Rmd`). Rmarkdown allows seamless integration of R scripts and text.                                                           |
+
+## File Name
+
+As you proceed, the number of files will increase, perhaps
+exponentially. It is therefore critical to have **consistent naming
+rules** for your files. Here are some recommendations:
+
+-   **NO SPACE.** Instead, use underscore.
+    -   Do: `script_week1.R`
+    -   Don’t: `script week1.R`
+-   **NO UPPERCASE.** Use lowercase only for file names.
+    -   Do: `script_week1.R`
+    -   Don’t: `Script_week1.R`
+-   **BE CONSISTENT.** Apply consistent naming rules within a project.
+    -   Do: R scripts for figures always start with a common prefix,
+        e.g., `figure_XXX.R` `figure_YYY.R`(`XXX` and `YYY` specifies
+        further details).
+    -   Don’t: R scripts for figures start with random text, e.g.,
+        `XXX_fig.R` , `Figure_Y2.R` , `plotB.R`.
